@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.white-mode {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 650px;
+    font-size: 20px;
+}
+
+.dark-mode {
+    background: rgba(7, 6, 6, 0.856);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 650px;
+    font-size: 20px;
+}
+
+button {
+    padding: 3px;
+    margin: 5px;
+    color: #fff;
+    background: #000000a1;
+    border: none;
+    cursor: pointer;
+    width: 23px;
+}
